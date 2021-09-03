@@ -1,0 +1,13 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "Converts text to speech (buffer) using python's pyttsx3 library.\nMust have python and pyttsx3 installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
