@@ -1,5 +1,7 @@
+// Imports
 const { exec } = require('child_process');
 const fs = require('fs').promises;
+
 module.exports = async (string, voice = true) => {
     const process = exec(
         "python " + __dirname + "\\tts.py",

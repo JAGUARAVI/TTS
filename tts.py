@@ -1,6 +1,6 @@
 import pyttsx3
 engine = pyttsx3.init()
-print("READY")
+print("I am ready")
 inp = input()
 file = input()
 voice = int(input())
@@ -9,4 +9,4 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[voice].id)
 engine.save_to_file(inp, file)
 engine.runAndWait()
-print("DONE")
+print("Completed succesfully")
